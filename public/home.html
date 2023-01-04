@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>ECLOTH</title>
+
+    <!-- Include the css file of boostrap  framework-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Include fontawesome tool -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/elc.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota|Oxanium&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <div class="continer">
+             <h1 class="logo">ECLOTH</h1>
+             <p class="text">
+                Your home
+             </p>
+             <div class="ma">
+                <img class="ma_img" src="images/363-4.png">
+             </div>
+             <div class="my-btn">
+             <div class="btn-small">
+                <!-- <div class="login"><a href="login.html">LOGIN</a></div> -->
+                <a href="/login.html" role="button" class="btn btn-primary btn-left"><i class="fas fa-sign-in-alt icon-small"></i>Login</a>
+                <a href="/sign.html" role="button" class="btn btn-primary btn-right"><i class="fas fa-user-plus icon-small"></i>Sign up</a>
+             </div>
+                <div class="btnlong">
+                    <button id="g-button" onclick="loginWithGoogle()" type="button" class="btn btn-primary btn-lg btn-block"><i class="fab fa-google-plus-g icon-big"></i>Login With Google</button>
+                </div>
+             </div>
+        </div>
+    </body>
+
+    <!-- Include JQuery tool -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous">
+    </script>
+
+    <!-- Include the javascript file needed by bootstrap framework -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+
+    <script src="js/index.js"></script>
+    </html>

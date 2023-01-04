@@ -1,0 +1,38 @@
+.continer{
+	height: 818px;
+}
+.tou{
+	width: 460px;
+	text-align: center;
+	padding-top: 100px;
+}
+.tou img{
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.login-form {
+	width: 80%;
+    margin: 1.5rem auto;
+}
+
+.email-help {
+	color: white !important;
+    opacity: 70%;
+}
+
+.facebook{
+	width: 80%;
+    margin: auto
+}
+
+.cg-btn {
+	background-color: #6464f1;
+    border-color: #6464f1;
+}
+
+.facebook .icon{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}

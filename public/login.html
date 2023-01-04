@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>Login</title>
+
+    <!-- Include the css file of boostrap  framework-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Include fontawesome tool -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/elc.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+    <body>
+        <div class="continer">
+            <div class="tou">
+                <img src="images/t1.png" alt="">
+            </div>
+
+            <form>
+                <div class="form-group login-form">
+                  <input id="user-email" type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted email-help">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="input-group login-form">
+                    <input id="user-pw" type="password" class="form-control form-control-lg" placeholder="Password" aria-label="password" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button onclick="loginWithEmail()" class="btn btn-secondary btn-sm"><i class="fas fa-sign-in-alt icon-small"></i></button>
+                    </div>
+                  </div>
+
+                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+              </form>
+
+            <div class="facebook">
+            <!-- <img class="icon" src="images/facebook.png" alt="">
+                Continue with Facebook -->
+                <div class="btnlong">
+                    <button id="cg-button" type="button" class="btn btn-primary btn-lg btn-block cg-btn"><i class="fab fa-google-plus-g icon-big"></i>Continue With Google</button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+        <!-- Include JQuery tool -->
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous">
+        </script>
+    
+        <!-- Include the javascript file needed by bootstrap framework -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+        <script src="/js/index.js"></script>
+    </html>

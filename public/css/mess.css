@@ -1,0 +1,28 @@
+.mebox{
+	width: 410px;
+	height: 100px;
+	background-color: #fff;
+}
+.mebox .boxitem{
+	display: inline-block;
+	width: 120px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+.mebox .boxitem img{
+	margin-bottom: 20px;
+}
+.messbox{
+	margin-top: 10px;
+	width: 410px;
+	height: 100px;
+	background-color: #fff;
+}
+.messbox_text{
+	display: inline-block;
+	height: 100px;
+	font-weight: bold;
+	font-size: 25px;
+	vertical-align:middle;
+} 

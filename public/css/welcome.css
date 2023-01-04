@@ -1,0 +1,38 @@
+.continer{
+	height: 818px;
+}
+.listbox{
+	position: relative;
+	top: 130px;
+	margin: 0 auto;
+	color: #fff;
+	width: 200px;
+	height: 500px;
+	border:1px solid #fff;
+	font-family: 'Oxanium', cursive; 
+	font-size: 30px;
+}
+.listbox .listleft{
+	float: left;
+	width:100px;
+	height: 500px;
+}
+.listbox .listright{
+	float: left;
+	width:100px;
+	height: 500px;
+	color: #fff;
+	text-align: center;
+}
+.listbox .listleft .listtext{
+	text-align: center;
+	margin-top: 80px;
+}
+.listbox .listright .listtext{
+	text-align: center;
+	margin-top: 140px;
+}
+.wbtn{
+	margin-top: 200px;
+	text-align: center;
+}

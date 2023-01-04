@@ -1,0 +1,111 @@
+a{
+	text-decoration: none;
+}
+.findnav{
+	padding-left: 20px;
+
+}
+.findnav .fleft{
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	font-size: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+
+}
+.fcenter{
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+.fcenter .fso1{
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.fcenter .fso2{
+	color: #eee;
+}
+.fright{
+	display: inline-block;
+	padding-top: 5px;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+.fnav{
+	margin-top: 10px;
+	width: 460px;
+	height: 200px;
+	text-align: center;
+	background-color: #fff;
+}
+.ftext{
+	width: 460px;
+	height: 60px;
+	line-height: 50px;
+	background-color: #fff;
+	background-color: #eee;
+}
+.topc{
+	color: #111;
+}
+.more{
+	position: relative;
+	left: 280px;
+	color:pink;
+	font-size:25px;
+}
+.fthree{
+	padding-top: 20px;
+	width: 460px;
+	height: 200px;
+	text-align: center;
+	background-color: #FFF;
+}
+.fitem{
+	display: inline-block;
+	width: 130px;
+	height: 200px;
+	padding-top: 0px 10px;
+	text-align: center;
+}
+.ft2{
+	display: block;
+	width: 460px;
+	height: 50px;
+	line-height:50px;
+	text-align: center;
+	font-size: 20px;
+	color: #111;
+	background-color: #eee;
+}
+.fname{
+	width: 460px;
+	height: 150px;
+	background-color: #fff;
+}
+.fname-one{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.follow{
+	display: inline-block;
+	width: 340px;
+	text-align: center;
+	font-size: 14px;
+	padding:10px 5px;
+	text-align: right;
+}
+.fanme

@@ -1,0 +1,42 @@
+.continer{
+  margin: 0 auto;
+  width: 600px;
+  background-color: pink;
+}
+.weui-tabbar{
+	display: flex;
+	justify-content: space-evenly;
+	width: 600px;
+}
+.choice{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 450px;
+	height: 600px;
+}
+.choice .title{
+	padding-top: 20px;
+	font-size: 20px;
+	letter-spacing:50px;
+}
+.choice .img{
+	display: inline-block;
+}
+.weui-tabbar__icon{
+  display: inline-block;
+  width: 116px;
+  text-align: center;
+}
+.choleft{
+	float: left;
+	width: 220px;
+	height: 200px;
+	text-align: left;
+	border:1px solid #111;
+}
+.choright{
+	float: left;
+	width: 225px;
+	height: 200px;
+}
